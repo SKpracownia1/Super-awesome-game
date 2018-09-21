@@ -2,6 +2,8 @@
 #include <SFML/Window.cpp> // po prostu umozliwia zrobienie okna
 #include <SFML/Graphics.cpp> // umożliwia render okna I wszelkie zmiany graficzne
 
+using namespace std;
+
 Int main() //pewnie zmienilibysmy to na object typu np. Int oknoApki czy coś
 {
                 //utworzenie okna graficznego o rozdzialce full hd 32 bit kolory na fullscreenie
@@ -21,6 +23,9 @@ Int main() //pewnie zmienilibysmy to na object typu np. Int oknoApki czy coś
                                }
                 //odswieza I wyswietla okno
                 Window.clear();
-Window.display();
+                Window.display();
                 }
+  
+return 0;
 }
+
