@@ -1,3 +1,4 @@
+#include <iostream>
 #include <SFML/Window.cpp> // po prostu umozliwia zrobienie okna
 #include <SFML/Graphics.cpp> // umożliwia render okna I wszelkie zmiany graficzne
 
