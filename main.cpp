@@ -15,15 +15,15 @@ int main()
 		sf::Event WindowEvent;
 		while (Window.pollEvent(WindowEvent))
 		{
-			//Pêtla poni¿ej umo¿liwia zamkniêcie okna przyciskiem x
+			//PÃªtla poniÂ¿ej umoÂ¿liwia zamkniÃªcie okna przyciskiem x
 			if (WindowEvent.type == sf::Event::Closed)
 				Window.close();
-			//pêtla umo¿liwia wyjœcie przyskiem escape
+			//pÃªtla umoÂ¿liwia wyjÅ“cie przyskiem escape
 			if (WindowEvent.type == sf::Event::KeyPressed && WindowEvent.key.code == sf::Keyboard::Escape)
 				Window.close();
 			//Basic controls
 			if (WindowEvent.type == sf::Event::KeyPressed && WindowEvent.key.code == sf::Keyboard::Up)
-				oshape.move(0, 10);
+				oshape.move(0, -10);
 			if (WindowEvent.type == sf::Event::KeyPressed && WindowEvent.key.code == sf::Keyboard::Down)
 				oshape.move(0, 10);
 			if (WindowEvent.type == sf::Event::KeyPressed && WindowEvent.key.code == sf::Keyboard::Left)
